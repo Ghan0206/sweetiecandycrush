@@ -1,0 +1,261 @@
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px;
+	display: flex;
+    flex-wrap: wrap;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .nav a {
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  .hero {
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 50px 50px;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .sweet-candy {
+	flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .products {
+	 flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product {
+    width: 90%;
+  }
+}
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+/*carosel*/
+
+.owl-stage-outer img {
+	height: 600px;
+	width: 100px;
+}
+/*end carosel*/
+.owl-carousel owl-theme col-12 {
+	width: 50%
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f1fb;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #ecd9f7;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #a26bb5;
+}
+
+.logo span {
+  color: #d178b8;
+  margin-left: 5px;
+}
+
+nav a {
+  margin-left: 50px;
+  text-decoration: none;
+  color: #6b448c;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #d178b8;
+}
+.cart {
+  font-size: 20px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  background: #d9bdf4;
+  padding: 60px 80px;
+  gap: 40px;
+}
+
+hero-text col-9 {
+	width: 75%
+}
+.col-9 h1 {
+  padding-left: 50px;
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+}
+
+.col-9 span {
+  font-size: 72px;
+  display: block;
+}
+
+.col-9 button {
+  margin-top: 30px;
+  margin-left: 50px;
+  padding: 14px 28px;
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #d178b8;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.col-9 button:hover {
+  background: #fdd1ea;
+  color: white;
+}
+.sweetie {
+	width: 250px;
+  height: auto;
+padding: 10px 20px;
+display: block;
+    margin: 0 auto;
+}
+
+.banner {
+  background: #fff;
+  padding: 10px;
+  font-weight: bold;
+  color: #a27dbd;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-around;
+  background: #f3e9fc;
+  padding: 30px 0;
+}
+
+.category {
+  text-align: center;
+}
+.category img {
+  border-radius: 10px;
+  width: 90px;
+  height: 90px;
+  background: #ddd;
+  display: block;
+  margin: 0 auto 10px;
+}
+.hover-text {
+  color: #333;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+
+.hover-text:hover {
+	color: #a64ac9;}
+
+.featured {
+  background: #e7d3f5;
+  padding: 50px 20px;
+  text-align: center;
+}
+.featured h2 {
+  margin-bottom: 30px;
+}
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.product {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 180px;
+}
+.product img {
+  width: 100%;
+  height: 150px;
+  background: #ddd;
+  margin-bottom: 10px;
+}
+.product p {
+  margin-bottom: 10px;
+}
+.product span {
+  color: #6a4c93;
+}
+.product button {
+  background: #d9bdf4;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sweet-candy {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background: #fdf1fb;
+}
+.sweet-candy img {
+  width: 200px;
+  height: auto;
+}
+.sweet-candy .text {
+  max-width: 400px;
+  color: #B776F5;
+}
+.sweet-candy button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #d9bdf4;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #e7d3f5;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #6a4c93;
+}

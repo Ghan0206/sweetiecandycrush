@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #f8d5e1, #e8d4f7);
+}
+
+header {
+  background-color: #e7d3f5;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #a26bb5;
+}
+
+.logo span {
+  color: #d178b8;
+  margin-left: 5px;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #6b448c;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #d178b8;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 40px 20px;
+}
+
+.hero-product-wrapper {
+  display: flex;
+  width: 90%;
+  max-width: 1200px;
+  height: 600px;
+  margin: 40px auto;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.hero-combined {
+  flex: 1;
+  background: #d9bdf4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  color: #fff;
+}
+
+.hero-combined h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.hero-combined span {
+  font-size: 28px;
+  color: #FFEDED;
+}
+
+.hero-combined img {
+  margin-top: 20px;
+  width: 200px;
+}
+
+.product-combined {
+  flex: 1;
+  background: #e8d4f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  position: relative;
+}
+
+.product-combined .left {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.product-combined .left img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.product-combined .right {
+  color: white;
+  padding-top: 70px;
+}
+
+.product-combined .subtitle {
+  font-size: 22px;
+  font-style: italic;
+}
+
+.product-combined .title {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.product-combined .description {
+  margin: 40px 0;
+  font-size: 14px;
+  line-height: 1.4;
+  max-width: 300px;
+}
+
+.product-combined .btn {
+  padding: 10px 20px;
+  background: #ffffff;
+  color: #a26bb5;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.social-icons {
+  position: absolute;
+  bottom: 60px;
+  left: 30px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+footer {
+  background-color: #e7d3f5;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #6a4c93;
+}

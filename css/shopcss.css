@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f2fb;
+  color: #4c2d66;
+}
+
+header {
+  background-color: #e7d3f5;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #a26bb5;
+}
+
+.logo span {
+  color: #d178b8;
+  margin-left: 5px;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #6b448c;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #d178b8;
+}
+
+.hero {
+  background: linear-gradient(to right, #f1d9f9, #e8c5f7);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 32px;
+  color: #6a4c93;
+}
+
+.hero-img img {
+  max-width: 300px;
+  height: auto;
+}
+
+.popular {
+  background-color: #fff;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.popular h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #a26bb5;
+}
+
+.popular p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.cupcake-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.cupcake {
+  background-color: #f8ecfd;
+  padding: 20px;
+  border-radius: 15px;
+  width: 200px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.cupcake:hover {
+  transform: scale(1.1);
+}
+.cupcake img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.cupcake h3 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+  color: #6a4c93;
+}
+
+.cupcake p {
+  font-size: 14px;
+  color: #555;
+}
+
+.price {
+  display: block;
+  background: #d5b4f3;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  width: fit-content;
+  margin: 0 auto 10px;
+}
+.cupcake-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.cupcake-list.separated {
+  margin-top: 50px; /* khoảng cách giữa 2 dòng */
+}
+
+footer {
+  background-color: #e7d3f5;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #6a4c93;
+}
+
